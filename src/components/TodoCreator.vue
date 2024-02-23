@@ -4,6 +4,7 @@ import { reactive } from "vue";
 const emit = defineEmits(["create-todo"]);
 
 const todo = reactive({
+  
   todo: "",
   invalid: false,
   errMsg: "",

@@ -73,7 +73,9 @@ const deleteTodo = (todo) => {
         @update-todo="updateTodo"
         @toggle-complete="toggleTodoComplete"
         @delete-todo="deleteTodo"
-      />
+      ></TodoItem>
+       
+      
     </ul>
     <p v-else class="todos-msg">
       <Icon icon="noto-v1:sad-but-relieved-face" />
